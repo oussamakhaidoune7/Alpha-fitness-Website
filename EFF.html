@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        header h1{
+            border: 2px solid black;
+        }
+        table{
+            border: 2px solid black;
+            width: 1000px;
+        }
+        td:nth-child(2n+1)
+        {
+            width: 14%;
+        }
+    </style>
+    <h1 style="border: solid;">Inscrotion..................</h1>
+    <h2>Info personelles</h2>
+    <form>
+        <table>
+            <tr>
+                <td><label>CIN:</label></td>
+                <td><input type="text" name="Cin" placeholder="enter votre cin"></td>
+            </tr>
+            <tr>
+                <td><label>NOM:</label></td>
+                <td><input type="text" name="Cin" placeholder="enter votre nom"></td>
+            </tr>
+            <tr>
+                <td><label>PRENOM:</label></td>
+                <td><input type="text" name="Cin" placeholder="enter votre prénom"></td>
+            </tr>
+            <tr>
+                <td><label>Date perinage:</label></td>
+                <td><input type="date" name="prenage" id="date"></td>
+            </tr>
+            <tr>
+                <td><label>Sexe:</label></td>
+                <td><input name="sexe" type="radio" value="h">H &nbsp;<input name="sexe" type="radio" value="f">F</td>
+            </tr>
+        </table>
+        <div id="Accomp"></div>
+        <h2>Accompagnateur</h2>
+        <table>
+            <tr>
+                <td><label>CIN Accompagnateur:</label></td>
+                <td>
+                    <select>
+                        <option value="BHHHHHH">BHXXXXXXX</option>
+                        <option value="rgaewrre">BHXXkXkkkX</option>
+                        <option value="agrrergaeg">BHXDDDDXX</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Lien familliel:</label></td>
+                <td>
+                    <select>
+                        <option value="wFF">Maroc</option>
+                        <option value="DA<GR">France</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td><label>Maladies:</label></td>
+                <td>
+                    <textarea name="txter" id="e" rows="6" cols="18"></textarea>
+                </td>
+            </tr>
+        
+        </table>
+
+        <input type="submit" id="btn" value="Enregetrer">
+
+    </form>
+</body>
+
+</html>
